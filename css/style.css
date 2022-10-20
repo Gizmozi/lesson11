@@ -1,0 +1,323 @@
+/* !!!!!!!!!!!!! */
+.main__image-morning {
+  background: url("../img/night.png") no-repeat 0 0 / cover;
+}
+.main__image-morning {
+  height: 720px;
+  width: 1280px;
+  position: fixed;
+  z-index: 1;
+  opacity: 1;
+}
+
+.main__image-night {
+  background: url("../img/morning.png") no-repeat 0 0 / cover;
+}
+.main__image-night {
+  height: 720px;
+  width: 1280px;
+  position: fixed;
+  z-index: 1;
+  opacity: 0;
+}
+.main__image-sun:hover ~ .main__image-night {
+  opacity: 0;
+  transition: 5s;
+}
+/* !!!!!!!!!!!!!!! */
+.main__image-berd {
+  background: url("../img/berd.png") no-repeat;
+}
+.main__image-berd2 {
+  background: url("../img/berd2.png") no-repeat;
+}
+.main__image-berd3 {
+  background: url("../img/berd3.png") no-repeat;
+}
+
+/* !!!!!!!!!!!!!!!! */
+.main__image-sun,
+.main__image-moon {
+  transition: 5s;
+  vertical-align: middle;
+}
+.main__image-sun:hover {
+  transform: translateY(300px);
+  opacity: 0.8;
+  z-index: 0;
+}
+.main__image-sun:hover ~ .main__image-moon,
+.main__image-night {
+  transform: translateY(-300px);
+  opacity: 1;
+}
+
+/* !!!!!!!!!!!!!!! */
+.main__image-moon {
+  background: url("../img/moon.png") no-repeat;
+}
+
+.main__image-sun {
+  position: absolute;
+  z-index: 15;
+  margin: auto;
+  padding: auto;
+  height: 104.72442626953125px;
+  width: 97.62348937988281px;
+  left: 880px;
+  top: 1px;
+  opacity: 1;
+}
+.main__image-sun {
+  background: url("../img/sun.png") no-repeat;
+}
+.main__image-moon {
+  content: "";
+  margin: auto;
+  padding: auto;
+  position: absolute;
+  height: 104px;
+  width: 97px;
+  left: 205px;
+  top: 300px;
+  z-index: 1;
+  opacity: 0.8;
+}
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+.main__image-ground {
+  background: url("../img/maingrand1.png") no-repeat;
+  margin: auto;
+  padding: auto;
+  position: fixed;
+  height: 720px;
+  width: 1280px;
+  left: 0px;
+  top: 1px;
+  border-radius: 0px;
+  z-index: 11;
+}
+.main__image-smalltree {
+  background: url("../img/smalltree.png") no-repeat;
+  margin: auto;
+  padding: auto;
+  position: fixed;
+  z-index: 12;
+
+  height: 181.1306610107422px;
+  width: 179.8356170654297px;
+  left: 204px;
+  top: 191px;
+  border-radius: 0px;
+}
+.main__image-smalltree2 {
+  background: url("../img/smalltree2.png") no-repeat;
+  margin: auto;
+  padding: auto;
+  position: fixed;
+  z-index: 13;
+  height: 182.2227020263672px;
+  width: 198.4407958984375px;
+  left: -18px;
+  top: 149px;
+  border-radius: 0px;
+}
+.main__image-treemidl {
+  background: url("../img/treemidl.png") no-repeat;
+  margin: auto;
+  padding: auto;
+  position: fixed;
+  z-index: 13;
+  height: 504.83538818359375px;
+  width: 425.9598388671875px;
+  left: 992.604736328125px;
+  top: 0px;
+  border-radius: 0px;
+}
+.main__image-berd {
+  margin: auto;
+  padding: auto;
+  position: fixed;
+  z-index: 12;
+  height: 16px;
+  width: 45px;
+  left: 585px;
+  top: 200px;
+}
+
+.main__image-berd2 {
+  margin: auto;
+  padding: auto;
+  position: fixed;
+  z-index: 12;
+  height: 17.885393142700195px;
+  width: 20.327808380126953px;
+  left: 642px;
+  top: 209px;
+}
+.main__image-berd3 {
+  margin: auto;
+  padding: auto;
+  position: fixed;
+  z-index: 12;
+  height: 8.787666320800781px;
+  width: 26.16143798828125px;
+  left: 1000px;
+  top: 93.95648193359375px;
+}
+.main__image-ground2 {
+  background: url("../img/ground2.png") no-repeat;
+  margin: auto;
+  padding: auto;
+  position: fixed;
+  z-index: 12;
+  height: 365.4152526855469px;
+  width: 1452.7039794921875px;
+  left: 0px;
+  top: 312.50213623046875px;
+  border-radius: 0px;
+}
+.main__image-ground3 {
+  background: url("../img/ground3.png") no-repeat;
+  margin: auto;
+  padding: auto;
+  position: fixed;
+  z-index: 12;
+  height: 318.9612731933594px;
+  width: 1178.6832275390625px;
+  left: 291.9688720703125px;
+  top: 428.48895263671875px;
+  border-radius: 0px;
+}
+.main__image-geraf {
+  background: url("../img/geraf.png") no-repeat;
+  margin: auto;
+  padding: auto;
+  position: fixed;
+  z-index: 12;
+  height: 68.1548843383789px;
+  width: 29.498455047607422px;
+  left: 820.287109375px;
+  top: 331.57940673828125px;
+  border-radius: 0px;
+}
+.main__image-geraf2 {
+  background: url("../img/geraf3.png") no-repeat;
+  margin: auto;
+  padding: auto;
+  position: fixed;
+  z-index: 12;
+  height: 94.31848907470703px;
+  width: 58.753971099853516px;
+  left: 923.127685546875px;
+  top: 305.8953857421875px;
+  border-radius: 0px;
+}
+.main__image-geraf3 {
+  background: url("../img/geraf2.png") no-repeat;
+  margin: auto;
+  padding: auto;
+  position: fixed;
+  z-index: 12;
+  height: 94.51444244384766px;
+  width: 76.3096694946289px;
+  left: 956.246826171875px;
+  top: 296.59423828125px;
+  border-radius: 0px;
+}
+.main__image-rock1 {
+  background: url("../img/rock1.png") no-repeat;
+  margin: auto;
+  padding: auto;
+  position: fixed;
+  z-index: 14;
+  height: 192.64505004882812px;
+  width: 254.3758544921875px;
+  left: 288px;
+  top: 482px;
+  border-radius: 0px;
+}
+.main__image-rock2 {
+  background: url("../img/rock2.png") no-repeat;
+  margin: auto;
+  padding: auto;
+  position: fixed;
+  z-index: 12;
+  height: 114.6522216796875px;
+  width: 332.8241271972656px;
+  left: 1048.344482421875px;
+  top: 418.28875732421875px;
+  border-radius: 0px;
+}
+.main__image-rock3 {
+  background: url("../img/rock3.png") no-repeat;
+  margin: auto;
+  padding: auto;
+  position: fixed;
+  z-index: 13;
+  height: 81.1991195678711px;
+  width: 133.61587524414062px;
+  left: 894.18505859375px;
+  top: 459.02349853515625px;
+  border-radius: 0px;
+}
+.main__image-rock4 {
+  background: url("../img/rock4.png") no-repeat;
+  margin: auto;
+  padding: auto;
+  position: fixed;
+  z-index: 14;
+  height: 96.67017364501953px;
+  width: 136.06454467773438px;
+  left: 81px;
+  top: 606px;
+  border-radius: 0px;
+}
+
+.main__image-sky1 {
+  background: url("../img/sky1.png") no-repeat;
+  margin: auto;
+  padding: auto;
+  position: fixed;
+  z-index: 12;
+  height: 41.328460693359375px;
+  width: 670.095947265625px;
+  left: 859.1290283203125px;
+  top: 215.9256591796875px;
+  border-radius: 0px;
+}
+.main__image-sky2 {
+  background: url("../img/sky2.png") no-repeat;
+  margin: auto;
+  padding: auto;
+  position: fixed;
+  z-index: 12;
+  height: 32.385128021240234px;
+  width: 326.8102722167969px;
+  left: 368.1484375px;
+  top: 267.6396484375px;
+  border-radius: 0px;
+}
+.main__image-sky3 {
+  background: url("../img/sky3.png") no-repeat;
+  margin: auto;
+  padding: auto;
+  position: fixed;
+  z-index: 11;
+  height: 46.415225982666016px;
+  width: 1499.2862548828125px;
+  left: -82.12255859375px;
+  top: 225.8546142578125px;
+  border-radius: 0px;
+}
+.main__image-bigtree {
+  background: url("../img/bigtree.png") no-repeat;
+  margin: auto;
+  padding: auto;
+  position: fixed;
+  z-index: 13;
+  height: 767.2207641601562px;
+  width: 1012.6874389648438px;
+  left: 0px;
+  top: 0px;
+  border-radius: 0px;
+}
